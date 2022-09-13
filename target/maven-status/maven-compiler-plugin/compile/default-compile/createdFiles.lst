@@ -1,2 +1,13 @@
-ch2\ProjectConfig.class
-ch2\Dog.class
+ch2\ProjectConfigCh2.class
+ch2\Main.class
+ch6\services\CommentService.class
+ch6\ProjectConfigCh6.class
+ch2\models\Person.class
+ch2\models\Dog.class
+ch6\Main.class
+ch2\repositories\MailRepository.class
+ch2\services\MailService.class
+ch6\models\Comment.class
+ch2\models\Car.class
+ch2\models\Parrot.class
+ch2\repositories\MailRepositoryImpl.class
