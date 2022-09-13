@@ -1,6 +1,9 @@
 package ch2;
 
 
+import ch2.models.Car;
+import ch2.models.Dog;
+import ch2.models.Person;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -41,7 +44,7 @@ public class ProjectConfig {
         return person;
     }
 
-    //Внедрение зависимости через передачу параметра car типа ch2.Car в метод
+    //Внедрение зависимости через передачу параметра car типа ch2.models.Car в метод
     @Bean
     public Person personParameter(Car car){
         Person person = new Person();

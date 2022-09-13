@@ -1,4 +1,4 @@
-package ch2;
+package ch2.models;
 
 public class Car {
     private String model;
@@ -21,7 +21,7 @@ public class Car {
 
     @Override
     public String toString() {
-        return "ch2.Car{" +
+        return "ch2.models.Car{" +
                 "model='" + model + '\'' +
                 '}';
     }

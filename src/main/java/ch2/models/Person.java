@@ -1,4 +1,4 @@
-package ch2;
+package ch2.models;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;

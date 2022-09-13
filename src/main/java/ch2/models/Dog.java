@@ -1,4 +1,4 @@
-package ch2;
+package ch2.models;
 
 public class Dog {
     String name;
