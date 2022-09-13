@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Primary;
 
 @ComponentScan
 @Configuration
-public class ProjectConfig {
+public class ProjectConfigCh2 {
 
     @Bean
     public Dog dog(){
