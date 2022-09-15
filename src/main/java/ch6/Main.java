@@ -10,7 +10,7 @@ public class Main {
         ApplicationContext applicationContext = new AnnotationConfigApplicationContext(ProjectConfigCh6.class);
         CommentService commentService = applicationContext.getBean(CommentService.class);
 
-        Comment comment = new Comment("text of comment","Danko");
-        commentService.publishComment(comment);
+        commentService.publishComment(new Comment("123","Danko"));
+
     }
 }
